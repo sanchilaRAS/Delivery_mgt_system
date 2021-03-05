@@ -1,0 +1,99 @@
+body {
+  background-image: url("https://arrival.com/_next/static/images/card-desktop-1x_0003_van-beta-001-66fd48360caf96a72cb81854beedc35c.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 2rem 1rem;
+}
+
+.container {
+  padding: 100px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff !important;
+  opacity: 1; /* Firefox */
+  font-size: 18px !important;
+}
+.form-login {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-width: 10px;
+  border-color: #ffb3b3;
+  box-shadow: 0 1px 0 #ffffff;
+  border-radius: 27.5px;
+  /* box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);*/
+  /*overflow: hidden;*/
+}
+.form-control {
+  background: transparent !important;
+  font-size: 18px !important;
+  color: white;
+}
+.form-control input {
+  color: #ffffff;
+  background: none;
+}
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #ffffff;
+}
+.textbox input {
+  color: #ffffff;
+  background: none;
+}
+.wrapper {
+  text-align: center;
+}
+h4 {
+  font-weight: 100;
+  text-align: center;
+}
+.button {
+  border: none;
+  padding: 24px;
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #ffffff;
+  background-size: 100%;
+  background-image: linear-gradient(to left, #f5e653, #f9690e, #f5e653);
+  transition: 0.6s;
+}
+.button:hover {
+  box-shadow: inset 100px 0 0 0 #f5e653;
+  color: #000;
+}
+.text {
+  font-size: 50px;
+  margin-top: -4%;
+  margin-bottom: 5%;
+  background-image: url("https://www.lefthudson.com/wp-content/uploads/2019/11/neon-colors-wallpaper-new-amazing-funny-picture-download-free-rainbow-beautiful-hd-amp-wallpapers-combination-of-neon-colors-wallpaper.jpg");
+  background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  color: rgba(225, 225, 225, 0.1);
+  animation: animate 15s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: left 0px top 10px;
+  }
+  40% {
+    background-position: left 800px top 10px;
+  }
+}
